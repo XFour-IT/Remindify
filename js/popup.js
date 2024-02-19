@@ -1,6 +1,4 @@
-// Function to display a popup
 function displayPopup() {
-	console.log('Popup displayed');
 	// Create an iframe element for the popup
 	const popupIframe = document.createElement('iframe');
 	popupIframe.id = 'columnCreationPopup';
@@ -18,29 +16,36 @@ function displayPopup() {
 	// Append the iframe to the body
 	document.body.appendChild(popupIframe);
 
-	// Add content to the popup
-	popupIframe.contentWindow.document.open();
-	popupIframe.contentWindow.document.write(`
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<style>
-			body {
-				font-family: 'Roboto', sans-serif;
-			}
-		</style>
+	// Load the message from storage
+	chrome.storage.sync.get('message', function(data) {
+		// If there's no message in storage, use a default message
+		const message = data.message || `
 		<h2>Creating a new column?</h2>
-		<p>Check schema name is <strong>lowercase</strong>.</p>
-		<p>Is this a choice field? <strong>Append code</strong>.</p>
-		<p>Is this a lookup field? <strong>Append id</strong>.</p>
-		<button id="closePopupBtn">Close</button>
-	`);
-	popupIframe.contentWindow.document.close();
+		<p>Remember your dev guidelines!</p>`;
 
-	// Add event listener to close the popup when the close button is clicked
-	const closePopupBtn = popupIframe.contentWindow.document.getElementById('closePopupBtn');
-	closePopupBtn.addEventListener('click', () => {
-		popupIframe.remove();
+		// Add content to the popup
+		popupIframe.contentWindow.document.open();
+		popupIframe.contentWindow.document.write(`
+			<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+			<style>
+				body {
+					font-family: 'Roboto', sans-serif;
+				}
+			</style>
+			${message}
+			<button id="closePopupBtn">Close</button>
+		`);
+		popupIframe.contentWindow.document.close();
+
+		// Add event listener to close the popup when the close button is clicked
+		const closePopupBtn = popupIframe.contentWindow.document.getElementById('closePopupBtn');
+		closePopupBtn.addEventListener('click', () => {
+			popupIframe.remove();
+		});
 	});
 }
+
+// The rest of your code remains the same
 
 // Function to observe changes in the DOM
 function observeDOM() {
