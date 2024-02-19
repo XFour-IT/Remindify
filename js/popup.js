@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Ben Lewis <oss@benjilewis.dev>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 function displayPopup() {
 	// Create an iframe element for the popup
 	const popupIframe = document.createElement('iframe');
