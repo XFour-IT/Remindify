@@ -20,7 +20,7 @@ SPDX-License-Identifier: MIT
 <br />
 <div align="center">
   <a href="https://github.com/benjisoft/PowerApps-Remindify">
-    <img src="Z - Resources/Icon.svg" alt="Logo" width="80" height="80">
+    <img src="Resources/Icon.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Power Apps Remindify</h3>
