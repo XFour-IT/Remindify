@@ -20,7 +20,7 @@ SPDX-License-Identifier: MIT
 <br />
 <div align="center">
   <a href="https://github.com/benjisoft/PowerApps-Remindify">
-    <img src="Z - Resources/Icon.jpg" alt="Logo" width="80" height="80">
+    <img src="Z - Resources/Icon.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Power Apps Remindify</h3>
@@ -135,10 +135,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] [Configure when the popup triggers #1](https://github.com/benjisoft/PowerApps-Remindify/issues/1)
+- [ ] [Configurable popup timeout #2](https://github.com/benjisoft/PowerApps-Remindify/issues/2)
 
 See the [open issues](https://github.com/benjisoft/PowerApps-Remindify/issues) for a full list of proposed features (and known issues).
 
