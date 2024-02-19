@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "PowerApps Column Creation Notifier",
+	"version": "1.0",
+	"description": "Displays a popup whenever a new column is created in make.powerapps.com.",
+	"permissions": [
+	  "activeTab",
+	  "storage"
+	],
+	"content_scripts": [
+	  {
+		"matches": ["https://make.powerapps.com/*"],
+		"js": ["js/popup.js"]
+	  }
+	],
+	"icons": {
+	  "16": "images/icon16.jpg",
+	  "48": "images/icon48.jpg",
+	  "128": "images/icon128.jpg"
+	},
+	"action": {
+	  "default_icon": {
+		"16": "images/icon16.jpg",
+		"48": "images/icon48.jpg",
+		"128": "images/icon128.jpg"
+	  }
+	}
+  }
+  
