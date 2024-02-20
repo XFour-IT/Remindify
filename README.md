@@ -28,7 +28,7 @@ SPDX-License-Identifier: MIT
   <p align="center">
     A reminder popup to ensure dev guidelines are followed when working on Power Platform environments
     <br />
-    <a href="https://github.com/benjisoft/PowerApps-Remindify"><strong>Explore the docs »</strong></a>
+    <a href="https://chromewebstore.google.com/detail/powerapps-remindify/jhneafaebnghoagenjkopofilgipobdo?hl=en-GB"><strong>Install the extension »</strong></a>
     <br />
     <br />
     <a href="https://github.com/benjisoft/PowerApps-Remindify">View Demo</a>
@@ -197,7 +197,7 @@ Project Link: [https://github.com/benjisoft/PowerApps-Remindify](https://github.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/benji-lewis
 [product-screenshot]: images/screenshot.png
-[Chrome]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Chrome-url]: https://nextjs.org/
+[Chrome]: https://img.shields.io/bage/Chrome-Web-Store-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white
+[Chrome-url]: https://chromewebstore.google.com/detail/powerapps-remindify/jhneafaebnghoagenjkopofilgipobdo?hl=en-GB
 [HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
