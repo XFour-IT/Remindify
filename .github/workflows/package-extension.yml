@@ -8,7 +8,7 @@ on:
   push:
     branches:
       - develop
-      - production
+      - main
 
 jobs:
   package:
