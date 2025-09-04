@@ -24,7 +24,7 @@ jobs:
           elif [[ "${{ github.ref_name }}" == "develop" ]]; then
             echo "mode=beta" >> "$GITHUB_OUTPUT"
             echo "zip=remindify-beta.zip" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.ref_name }}" == "production" ]]; then
+          elif [[ "${{ github.ref_name }}" == "main" ]]; then
             echo "mode=production" >> "$GITHUB_OUTPUT"
             echo "zip=remindify.zip" >> "$GITHUB_OUTPUT"
           else
