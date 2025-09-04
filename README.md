@@ -19,7 +19,7 @@ SPDX-License-Identifier: MIT
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/benjisoft/Remindify">
+  <a href="https://github.com/XFour-IT/Remindify">
     <img src="Resources/Icon.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -31,11 +31,11 @@ SPDX-License-Identifier: MIT
     <a href="https://chromewebstore.google.com/detail/powerapps-remindify/jhneafaebnghoagenjkopofilgipobdo?hl=en-GB"><strong>Install the extension »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/benjisoft/Remindify">View Demo</a>
+    <a href="https://github.com/XFour-IT/Remindify">View Demo</a>
     ·
-    <a href="https://github.com/benjisoft/Remindify/issues">Report Bug</a>
+    <a href="https://github.com/XFour-IT/Remindify/issues">Report Bug</a>
     ·
-    <a href="https://github.com/benjisoft/Remindify/issues">Request Feature</a>
+    <a href="https://github.com/XFour-IT/Remindify/issues">Request Feature</a>
   </p>
 </div>
 
@@ -109,7 +109,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/benjisoft/Remindify.git
+   git clone https://github.com/XFour-IT/Remindify.git
    ```
 3. Install NPM packages
    ```sh
@@ -135,10 +135,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] [Configure when the popup triggers #1](https://github.com/benjisoft/Remindify/issues/1)
-- [ ] [Configurable popup timeout #2](https://github.com/benjisoft/Remindify/issues/2)
+- [ ] [Configure when the popup triggers #1](https://github.com/XFour-IT/Remindify/issues/1)
+- [ ] [Configurable popup timeout #2](https://github.com/XFour-IT/Remindify/issues/2)
 
-See the [open issues](https://github.com/benjisoft/Remindify/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/XFour-IT/Remindify/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,9 +174,9 @@ Distributed under the GNU AGPL v3.0 or later license. See `LICENSE.txt` for more
 <!-- CONTACT -->
 ## Contact
 
-Ben Lewis - [@benjisoft](https://twitter.com/benjisoft) - oss@benjilewis.dev
+Ben Lewis - @XFour-IT - oss@benjilewis.dev
 
-Project Link: [https://github.com/benjisoft/Remindify](https://github.com/benjisoft/Remindify)
+Project Link: [https://github.com/XFour-IT/Remindify](https://github.com/XFour-IT/Remindify)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,16 +184,16 @@ Project Link: [https://github.com/benjisoft/Remindify](https://github.com/benjis
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/benjisoft/Remindify.svg?style=for-the-badge
-[contributors-url]: https://github.com/benjisoft/Remindify/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/benjisoft/Remindify.svg?style=for-the-badge
-[forks-url]: https://github.com/benjisoft/Remindify/network/members
-[stars-shield]: https://img.shields.io/github/stars/benjisoft/Remindify.svg?style=for-the-badge
-[stars-url]: https://github.com/benjisoft/Remindify/stargazers
-[issues-shield]: https://img.shields.io/github/issues/benjisoft/Remindify.svg?style=for-the-badge
-[issues-url]: https://github.com/benjisoft/Remindify/issues
-[license-shield]: https://img.shields.io/github/license/benjisoft/Remindify.svg?style=for-the-badge
-[license-url]: https://github.com/benjisoft/Remindify/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/XFour-IT/Remindify.svg?style=for-the-badge
+[contributors-url]: https://github.com/XFour-IT/Remindify/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/XFour-IT/Remindify.svg?style=for-the-badge
+[forks-url]: https://github.com/XFour-IT/Remindify/network/members
+[stars-shield]: https://img.shields.io/github/stars/XFour-IT/Remindify.svg?style=for-the-badge
+[stars-url]: https://github.com/XFour-IT/Remindify/stargazers
+[issues-shield]: https://img.shields.io/github/issues/XFour-IT/Remindify.svg?style=for-the-badge
+[issues-url]: https://github.com/XFour-IT/Remindify/issues
+[license-shield]: https://img.shields.io/github/license/XFour-IT/Remindify.svg?style=for-the-badge
+[license-url]: https://github.com/XFour-IT/Remindify/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/benji-lewis
 [product-screenshot]: images/screenshot.png
