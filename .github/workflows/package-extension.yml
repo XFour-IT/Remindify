@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2024 ChatGPT
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+name: Package Chrome Extension
+
+on:
+  pull_request:
+  push:
+    branches:
+      - develop
+      - production
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Determine build mode
+        id: vars
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "mode=debug" >> "$GITHUB_OUTPUT"
+            echo "zip=remindify-debug.zip" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.ref_name }}" == "develop" ]]; then
+            echo "mode=beta" >> "$GITHUB_OUTPUT"
+            echo "zip=remindify-beta.zip" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.ref_name }}" == "production" ]]; then
+            echo "mode=production" >> "$GITHUB_OUTPUT"
+            echo "zip=remindify.zip" >> "$GITHUB_OUTPUT"
+          else
+            echo "Unsupported branch" >&2
+            exit 1
+          fi
+      - name: Package extension
+        run: |
+          chmod +x package-extension.sh
+          ./package-extension.sh "${{ steps.vars.outputs.mode }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.vars.outputs.mode }}
+          path: dist/${{ steps.vars.outputs.zip }}
